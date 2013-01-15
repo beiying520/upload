@@ -1,0 +1,22 @@
+/** forum::forumdisplay **/
+.bdl {border: 1px solid {COMMONBORDER}; background-color: {SPECIALBG}; }
+.bdl dt {border-color:{COMMONBORDER};}
+.bdl dd.bdl_a a {background-color: {SPECIALBG};}
+/** end **/
+/** forum::index **/
+.block {margin:0;}
+.fl_icn_g {padding-top:2px;}
+.fl_g dl {padding-left: 8px;}
+.fl { border: 0px solid {COMMONBORDER}; border-top: none; background: {WRAPBG}; }
+.fl .bm {border: 1px solid {WRAPBORDERCOLOR}; margin-bottom:8px; padding:1px;}
+.fl .bm_h {border-width: 0 0 1px;}
+#diy1 .title {height: 28px;line-height: 28px;overflow:hidden;font-family:"ËÎÌו";}
+#diy1 .frame-tab .tb {height: 28px;line-height: 28px;background:url({STYLEIMGDIR}/km_tabbg.jpg);padding-left:1px;font-family:"ËÎÌו";}
+#diy1 .frame-tab .tb-c {padding:4px 8px;height: 233px;overflow:hidden;}
+#diy1 .tb a {border: 0px solid #C3DCFD;border-left: 1px solid #e2e2e2;border-right: 1px solid #e2e2e2;}
+#diy1 .frame-tab .title .move-span {width: 80px;}
+#diy1 .kmlpic  {height: 269px;overflow:hidden;}
+#diy1 .xl ol li span {float:right;color:#999;}
+#diy1 .xl ol li span a{color:#999;}
+.temp {margin: 0;}
+/** end **/

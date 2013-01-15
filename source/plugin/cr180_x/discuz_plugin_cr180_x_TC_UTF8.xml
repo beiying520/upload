@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2.5]]></item>
+	<item id="Time"><![CDATA[2012-05-28 15:46]]></item>
+	<item id="From"><![CDATA[超級管家 (http://localhost/dx2.5/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[卓芸X系管理]]></item>
+			<item id="identifier"><![CDATA[cr180_x]]></item>
+			<item id="description"><![CDATA[該插件只適用于卓芸X系模板，主要功能為控制卓芸X系模板界面各項參數設置。作者︰cr180]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[cr180_x/]]></item>
+			<item id="copyright"><![CDATA[cr180開發工坊&amp;超級管家 www.discuzt.com]]></item>
+			<item id="version"><![CDATA[V1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[style]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[頁頭導航欄風格]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[common_header]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[0=默認樣式
+1=不顯示導航說明]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[全局頁尾自定義代碼]]></item>
+				<item id="description"><![CDATA[請填寫增強型底部自定義代碼]]></item>
+				<item id="variable"><![CDATA[common_footer]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[<p>
+廣告熱線/傳真︰88888888  &nbsp;&nbsp;投訴受理︰88888888
+</p>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[是否開啟智能浮動菜單]]></item>
+				<item id="description"><![CDATA[開啟智能浮動菜單後，主題列表頁、帖子頁發帖菜單與分頁按鈕將會浮動顯示，有很高的用戶體驗（建議開啟）]]></item>
+				<item id="variable"><![CDATA[forum_common_floatmenu]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[論壇首頁橫排是否顯示版塊新貼]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[forum_index_listpost]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[主題列表頁列表風格一]]></item>
+				<item id="description"><![CDATA[風格︰頭像+標題+簡短內容
+請選擇需要應用該風格的版塊！]]></item>
+				<item id="variable"><![CDATA[forum_list_style]]></item>
+				<item id="type"><![CDATA[forums]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[42]]></item>
+				</item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[主題列表頁豐富型風格]]></item>
+				<item id="description"><![CDATA[選擇需要開啟豐富型風格的版塊，建議熱門版塊開啟該功能]]></item>
+				<item id="variable"><![CDATA[forum_displaystyle]]></item>
+				<item id="type"><![CDATA[forums]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[2]]></item>
+				</item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[X系帖子頁資訊貼版塊]]></item>
+				<item id="description"><![CDATA[選擇需要開啟資訊貼的版塊，可多選]]></item>
+				<item id="variable"><![CDATA[forum_view_newsstyle]]></item>
+				<item id="type"><![CDATA[forums]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[42]]></item>
+				</item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[X系帖子頁簡潔樓層模式]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[forum_view_endyestyle]]></item>
+				<item id="type"><![CDATA[forums]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="templatelang">
+				<item id="page_1"><![CDATA[上一頁]]></item>
+				<item id="page_2"><![CDATA[下一頁]]></item>
+				<item id="page_3"><![CDATA[返回頂部]]></item>
+				<item id="page_4"><![CDATA[刷新當前頁面]]></item>
+				<item id="page_5"><![CDATA[版塊導航]]></item>
+				<item id="page_6"><![CDATA[頂部]]></item>
+				<item id="lang_1"><![CDATA[今日]]></item>
+				<item id="lang_2"><![CDATA[主題]]></item>
+				<item id="lang_3"><![CDATA[總貼]]></item>
+				<item id="lang_4"><![CDATA[最新]]></item>
+				<item id="lang_5"><![CDATA[文字模式]]></item>
+				<item id="lang_6"><![CDATA[發表于]]></item>
+				<item id="lang_7"><![CDATA[查看]]></item>
+				<item id="lang_8"><![CDATA[回復]]></item>
+				<item id="lang_9"><![CDATA[信息產業部備案/許可證編號︰]]></item>
+				<item id="lang_10"><![CDATA[Style By <a href="http://www.discuzt.com" target="_blank">cr180開發工坊</a>]]></item>
+				<item id="lang_11"><![CDATA[我的廣播]]></item>
+				<item id="lang_12"><![CDATA[<script type="text/javascript">var IO=document.getElementById('float_menubox'),Y=IO,H=0,IE6;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(!IE6){
+	window.onscroll=function (){
+		var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+		if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+		IO.style.position=IO.fix?"":"fixed"; 
+		IO.className = IO.fix?"cl":"cl on"; 
+		if($('threadlist')) IO.style.width = ''+$('threadlist').scrollWidth+'px';
+		if($('postlist')) IO.style.width = ''+$('postlist').scrollWidth+'px';
+		IO.fix=!IO.fix;
+	};
+	try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+}
+</script>]]></item>
+				<item id="lang_13"><![CDATA[]]></item>
+				<item id="lang_14"><![CDATA[]]></item>
+			</item>
+		</item>
+	</item>
+</root>

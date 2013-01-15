@@ -1,0 +1,30 @@
+<!--{if $_G[gp_mod] == 'forumdisplay'}-->
+	<!--{eval $crurl = 'forum.php?mod=forumdisplay&fid='.$_G[fid].'&filter='.$filter.'&orderby='.$_G[gp_orderby].''.$forumdisplayadd[page].'';}-->
+<!--{elseif $_G[gp_mod] == 'viewthread'}-->
+    <!--{if $_G[gp_authorid]}-->
+    <!--{eval $crod = "authorid=$_G[gp_authorid]"}-->
+    <!--{/if}-->
+    <!--{eval $crurl = 'forum.php?mod=viewthread&tid='.$_G[tid].'&'.$crod.'';}-->
+<!--{elseif $_G[gp_mod] == 'space' && in_array($_G[gp_do],array('blog','doing','share','album'))}-->
+<!--{eval $crurl = 'home.php?'.url_implode($gets);}-->
+<!--{/if}-->
+
+<div id="scrolltop" class="cr_sitea">
+<!--{if $_G[gp_mod] == 'forumdisplay' || $_G[gp_mod] == 'viewthread' || ($_G[gp_mod] == 'space' && in_array($_G[gp_do],array('blog','doing','share','album')))}-->
+<ul class="cl">
+<li class="cr_up cl">
+<a <!--{if $page < $_G['setting']['threadmaxpages'] && $page < $_G['page_next']}-->
+ href="{$crurl}&page={echo $page+1}"
+<!--{else}--> title="{$cr180style[cr_pagenx]}" class="no" href="javascript:;"<!--{/if}--> title="{lang cr180_x:page_2}">{lang cr180_x:page_2}</a>
+</li>
+<li class="cr_dn cl"><a  <!--{if $page =='1'}--> class="no" href="javascript:;"
+<!--{else}--> href="{$crurl}&page={echo $page-1}"<!--{/if}--> title="{lang cr180_x:page_1}" title="{lang cr180_x:page_1}">{lang cr180_x:page_1}</a></li>
+</ul>
+<!--{/if}-->
+<div class="cr_top cl" onclick="window.scrollTo('0','0')" title="{lang cr180_x:page_3}">{lang cr180_x:page_6}</div>
+<div class="cr_f5 cl" onclick="location.reload(); return false;" title="{lang cr180_x:page_4}">&nbsp;</div>
+<!--{if $mod !='index'}-->
+<div class="cr_furumlist" onclick="showWindow('forumlist', '{IMGDIR}/function.php?mod=forumlist', 'get', 0);return false;">{lang cr180_x:page_5}</div>
+<!--{/if}-->
+</div>
+<script type="text/javascript">_attachEvent(window, 'scroll', function(){showTopLink();});</script>

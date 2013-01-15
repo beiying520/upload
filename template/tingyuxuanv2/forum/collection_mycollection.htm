@@ -1,0 +1,43 @@
+<!--{subtemplate common/header}-->
+<!-- banner -->
+<div id="tyxBanner">
+    <div class="BannerImg">
+        <div class="BannerIco">
+            <div class="Content">
+                <ul>
+                    <li class="name"><h1>
+	{if !$op && !$tid}{lang collection_recommended}
+    {elseif $op == 'all'}{lang collection_all}
+    {elseif $op == 'my'}{lang collection_my}
+    {/if}
+                    </h1></li>
+                    <li class="info">淘贴专辑，网站推荐淘贴专辑</li>
+                </ul>
+            </div>
+        </div>
+        <div class="BannerMaskTop tyxPNG"></div>
+        <div class="BannerMaskBtm tyxPNG"></div>
+    </div>
+</div>
+
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em>
+		<a href="forum.php?mod=collection">{lang collection}</a> <em>&rsaquo;</em>
+		<a href="forum.php?mod=collection&amp;op=my">{lang collection_my}</a>
+	</div>
+</div>
+
+<div id="ct" class="wp cl">
+	<div class="bm">
+		<div class="tb tb_h cl">
+			<!--{subtemplate forum/collection_nav}-->
+		</div>
+		<div class="bm_c" style="padding:15px 0 0 0;">
+			<!--{hook/collection_index_top}-->
+			<!--{subtemplate forum/collection_list}-->
+			<!--{hook/collection_index_bottom}-->
+		</div>
+	</div>
+</div>
+<!--{subtemplate common/footer}-->

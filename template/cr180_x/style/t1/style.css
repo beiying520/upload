@@ -1,0 +1,59 @@
+﻿/*
+[name]红[/name]
+[iconbgcolor]#D88609[/iconbgcolor]
+Powered by cr180
+*/
+body ,#float_menubox .cr180_m_f_pg, #float_menubox .cr180_list_th{background:#FAF6ED url(bg.png)}
+#nv.cr180_nv { background:#E25A09 url(nv.gif) repeat-x 0 100%}
+#nv.cr180_nv li { text-shadow:#900 1px 1px 0;}
+#scbar, #scbar_form, .scbar_icon_td, .scbar_txt_td, .scbar_type_td, .scbar_btn_td { background-image: url(search.png); }
+#hd #scbar { border-color:#F7CFCE}
+#nv #nv_scbar { border-color:#CA4C03}
+
+.ttp li a:hover, .ttp li.a a, .ttp li.a a:hover ,.pg strong, .pgb a:hover, .pg a:hover,#scrolltop li, #scrolltop .cr_top, #scrolltop .cr_f5, #scrolltop .cr_furumlist,#scrolltop li a ,#sd_bdl dd.bdl_a a,#hd .h_pop a:hover{ background-color:#930}/*深色背景*/
+.ttp li a ,.cr180_th_views ,.pbn .forum_mex #pgt{ background-color:#F2ECE5}/*浅色背景*/
+.cr180_list_th .z a { background-color:#EFCCB9}
+
+.pg a, .pg strong, .pgb a, .pg label ,.cr180_th_views p.cr_g1 ,.cr_ratl { border-color:#EFCCB9}/*深色边框*/
+.cr180_poststyleuxc .pls .avatar img { border-color:#EFCCB9}
+.bm_h {border-bottom:#EFCCB9 1px solid}
+
+.fl .bm_h a, .boardnav .fl.bmw .bm_h h2 ,.cr180_list_th .z a ,#threadlist .bm_c th .xst em,#threadlist .bm_c th .xst em a,.cr180_dstyl_ct .sd .cr180_sd_forum p.modedby a ,.cr180_dstyl_ct .sd .cr180_sd_forum p.formore a ,.cr180_thread_h h1.ts a ,.bm.bmw .bm_h ,#followlist h2.wx a ,.tb a{ color:#990000}/*深色链接*/
+#threadlist .bm_c th .xst a { color:#000}
+
+.pls { background-color:#FFF6F0}
+
+.pn, .tb .o, .tb .o a { background-image: url(pn.png); }
+	.pnc, a.pnc, .tb .o { border-color: #900; }
+/* 重定义 Tab */
+.tb .a a { border-bottom-color: #FAF6ED; background: url(background.png); }
+
+/* 重定义广播 */
+#uhd, #flw_header .bar { background-color: #FFF9F9; }
+	#uhd .tb a, #flw_header .bar { border-top-color: #FFE6E6; }
+	#uhd .tb .a a { border-bottom-color: #FAF6ED; }
+.flw_replybox { background-color: #FFF9F9; }
+	.flw_replybox .px, .flw_autopt, #flw_header .tedt { border-color: #FCC; }
+#flw_header #fastpostsubmit { background-image: url(flw_post.png); }
+.flw_replybox .pnc { background-image: url(pn_reply.png); }
+.flw_replybox td table .pnc { background-image: url(pn_rt.png); }
+#flw_post_extra .sec { border-color: #FFE6E6; background-color: #FFF9F9; }
+
+/* 重定义版块快速跳转和侧边导航 */
+#fjump_menu li.a a { background-color: #FFF9F9; }
+.bdl, .bdl dt, .bdl dd.bdl_a a { border-color: #FCC; background-color: #FFF9F9; }
+	.bdl dt { background-image: url(titlebg_sd.png); }
+.bdl dd.bdl_a a { color: #BA350F; }
+
+/* 重定义下拉菜单 */
+.p_pop a { border-bottom-color: #FFECEC; }
+	.p_pop a:hover, .p_pop a.a, #sctype_menu .sca { background-color: #FFECEC; color: #BA350F; }
+	.blk a:hover { background-color: transparent; }
+
+/* 重定义好友列表 */
+#nv_home .buddy li { background-color: transparent; border: none; }
+
+/* 重定义 {SPECIALBG} */
+.bmn, .bm_h, td.pls, .ad td.plc, div.exfm, .tb a, .tb_h, div.uo a, input#addsubmit_btn, #gh .bm .bm_h { background-color: #FFF2F2; }
+
+.cr180_viewnode_list,#f_pst {border-top-color:#993300}

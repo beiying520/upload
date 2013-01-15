@@ -1,0 +1,244 @@
+<!--{subtemplate common/header}-->
+    <script language="javascript" type="text/javascript" src="$_G['style'][styleimgdir]/tag_change.js"></script>
+    <base target="_blank">  
+    
+    <div id="Banner">
+        <div class="Weather_duoyun">
+            <div class="WeatherImg">
+                <div class="WeatherMaskTop tyxPNG">
+                    <div class="WeatherMaskBtm tyxPNG">
+                        <div class="Content">
+                            <div class="NRtxt tyxPNG">每天，我们看到的，是个精彩的世界，你不想用耳朵听一听，一样，是个精彩的世界<br />听雨轩网络电台 与音乐一起流浪</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="BannerReel" class="tyxPNG"></div>
+    
+	<div id="wp" class="wp">
+    	<!-- 左边列 -->
+        <div id="RadioSide">
+        	<div class="Rablock">
+            	<div class="RaIco"></div>
+            	<div class="RaTitle">
+                	<div class="RaName"><span>网络电台</span></div>
+                    <div class="QQgroup"><a href="#" target="_blank" title="加群注意事项">网友QQ群：88888888</div>
+                </div>
+            	<ul class="RaList">
+                	<li><a href="#" target="_blank">英文辑栏目上线，欢迎收听</li>
+                	<li><a href="#" target="_blank">积分商城测试中，敬请期待</a></li>
+                	<li><a href="#">[新]论坛等级及货币制度</a></li>
+                </ul>
+                <div class="corner"></div>
+            </div>
+            <ul class="RaBtn">
+            	<li class="ply"><a href="#"><span>网电节目联播<em>[开发中]</em></span></a></li>
+            	<li class="art"><a href="#" target="_blank"><span>听雨轩节目文稿汇总</span></a></li>
+            	<li class="dvd"><a href="#" target="_blank"><span>网电节目CD/DVD光盘</span></a></li>
+            </ul>
+            <ul class="RaInf">
+            	<li><a href="#" target="_blank">申请NJ</a>让世界听到你的声音</li>
+            	<li><a href="#" target="_blank">写文章</a>优秀文章用作节目文稿</li>
+            	<li><a href="#" target="_blank">爱策划</a>我的节目我做主</li>
+            	<li><a href="#">淘宝店</a>网站淘宝店[未开放]</li>
+            </ul>
+        </div>
+        <!-- 右边列 -->
+        <div id="RadioMain">
+        	<div id="RadioNew">
+                <div class="RadioNew">
+                    <div class="Rdmenu" id="Rdmenu">
+                        <div class="Rdmenuon0" onclick="iboxActive('Rd', '0', 0, 2);return false" title="最新节目">最新节目</div>
+                        <div class="Rdmenuoff" onclick="iboxActive('Rd', '1', 1, 2);return false" title="上一期节目">上期节目</div>
+                    </div>
+                    <div class="Rd0">
+                        <!--{block/3}-->
+                    </div>
+                    <div class="Rd1" style="display:none;">
+                        <!--{block/4}-->
+                    </div>
+                    <ul class="Retitle">最新话题<em>刚刚发表的主题</em></ul>
+                    <ul class="Reply">
+                        <!--{block/5}-->
+                    </ul>
+                </div>
+            </div>
+            <div id="RadioProgram">
+            	<div class="Zhuanti">
+                	<a href="#" title="毕业季|再见，我的大学" target="_blank"><img src="$_G['style'][styleimgdir]/zhuanti_biye.gif" alt="毕业季|再见，我的大学" /></a>
+                    <em class="tyxPNG"><a href="#" target="_blank" title="所有专题"></a></em>
+                </div>
+            	<div class="EliteProgram">
+                    <ul>
+                        <!--{block/6}-->
+                    </ul>
+                </div>
+                
+            	<div class="PreProgram">
+                    <ul>
+                        <!--{block/7}-->
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="RadioNJ">
+        	<div class="RadioNJ">
+            	<div class="Title"><a href="/netradio/radioNJ.html" target="_blank">主播</a></div>
+                <!--{block/8}-->
+                <div class="clear"></div>
+            </div>
+            <div class="RadioPlan">
+            	<div class="Rjoin"><a href="forum.php?mod=viewthread&tid=4466" target="_blank" title="申请NJ">申请</a></div>
+                <div class="Rcehua"><a href="forum.php?mod=viewthread&tid=6151" target="_blank" title="申请策划">策划</a></div>
+            </div>
+            <div class="RadioClip tyxPNG"></div>
+            <div class="RadioClip2"></div>
+        </div>
+        <div class="tyxAd" style=" margin:25px 0 0 0; height:90px;">
+        	<img src="$_G['style'][styleimgdir]/ad_music.jpg" alt="" />
+        </div>
+        <div class="NewsImg">
+        	<div class="ImgLst">
+            	<!--{block/9}-->
+                <div class="clear"></div>
+            </div>
+            <div class="NewsTitle"></div>
+        </div>
+        <div class="NewsTxt">
+            <ul>
+                <!--{block/10}-->
+            </ul>
+        </div>
+        
+    	<!-- 左边列 -->
+        <div id="SideBar">
+        	<div class="Foblock">
+            	<div class="FoIco"></div>
+            	<div class="RaTitle">
+                	<div class="RaName"><span>论坛BBS</span></div>
+                    <div class="BBStitle"><a href="forum.php?mod=forumdisplay&fid=78">论坛专题</a> | <a href="plugin.php?id=v63shop:list&pac=dh">积分商城</a></div>
+                </div>
+            	<ul class="BoardList">
+                	<li class="l1"><a href="forum.php?gid=46" target="_blank">音乐吧</a></li>
+                	<li class="l2"><a href="forum.php?mod=forumdisplay&fid=49">MV</a>　<a href="forum.php?mod=forumdisplay&fid=73">音乐吧</a>　<a href="forum.php?mod=forumdisplay&fid=77">音乐之故事</a></li>
+                </ul>
+            	<ul class="BoardList">
+                	<li class="l1"><a href="forum.php?gid=50" target="_blank">音乐酷</a></li>
+                	<li class="l2"><a href="forum.php?mod=forumdisplay&fid=62">天籁纯音</a>　<a href="forum.php?mod=forumdisplay&fid=63">流行经典</a><br /><a href="forum.php?mod=forumdisplay&fid=65">影视原声</a>　<a href="forum.php?mod=forumdisplay&fid=64">新世纪音乐</a></li>
+                </ul>
+            	<ul class="BoardList">
+                	<li class="l1"><a href="forum.php?gid=21" target="_blank">雨轩茶馆</a></li>
+                	<li class="l2"><a href="forum.php?mod=forumdisplay&fid=34">茶馆谈</a>　<a href="forum.php?mod=forumdisplay&fid=24">影像志</a>　<a href="forum.php?mod=forumdisplay&fid=47">影视厅</a><br /><a href="forum.php?mod=forumdisplay&fid=31">原创馆</a>　<a href="forum.php?mod=forumdisplay&fid=14">轩务</a>　<a href="forum.php?mod=forumdisplay&fid=32">帮助</a></li>
+                </ul>
+                <div class="corner"></div>
+            </div>
+            <div class="SideAd"><a href="#" target="_blank"><img src="$_G['style'][styleimgdir]/side_shop.gif" /></a></div>
+            <div class="SideAd"><a href="#" target="_blank"><img src="$_G['style'][styleimgdir]/side_xz.gif" /></a></div>
+            
+            
+        </div>
+        <!-- 右边列 -->
+        <div id="MainBody">
+        	<div id="MainMiddle">
+            
+            	<div id="StoryTop">
+                	<div class="Tit"><span><a href="#" target="_blank">音乐的故事</a></span><em>| 总有一曲，能让你想起什么，并永生难忘</em><a href="#" class="iPost">发布</a></div>
+                    <div class="StoryTop">
+                    	<!--{block/11}-->
+                    </div>
+                    <div class="Tit2">
+                    	<span>网友还喜欢...</span><em><a href="#" target="_blank">所有文章及试听 ></a></em>
+                    </div>
+                    <div class="StoryList">
+                    	<!--{block/12}-->
+                    </div>
+                    
+                </div>
+                
+            </div>
+        	<!-- 右侧 -->
+        	<div id="MainRight">
+            	<div id="AlbumTop">
+                	<div class="Tit"><span><a href="#" target="_blank">音乐酷</a></span><em>| 单曲 专辑下载</em><a href="#" class="iPost">发布</a></div>
+                    <ul class="AlbumTop">
+                    	<!--{block/13}-->
+                    </ul>
+                    <ul class="AlbumList">
+                    	<!--{block/14}-->
+                    </ul>
+                </div>
+            
+                
+                
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    	<!-- 左边列 -->
+        <div id="SideBar">
+        	<div class="Mublock">
+            	<div class="MuIco"></div>
+            	<div class="MuTitle">爱音乐的人，都是寂寞的</div>
+            	<ul class="Mulist">
+                    <li><a href="#" target="_blank">音月集</a>每月播放器音乐合集</li>
+                    <li><a href="#" target="_blank">音乐吧</a>音乐试听</li>
+                    <li><a href="#" target="_blank">MV</a>高清音乐MV推荐</li>
+                    <li><a href="#">收音机</a>网上听广播</li>
+                </ul>
+                <div class="corner"></div>
+            </div>
+            <ul id="DownSoft">
+            	<li><strong>CoolEdit Pro2.0</strong><br /><a href="#" target="_blank">软件下载</a> | <a href="#" target="_blank">使用教程</a></li>
+            </ul>
+        </div>
+        <!-- 右边列 -->
+        <div id="MainBody">
+        	<div id="MainMiddle">
+                
+            	<div id="Xuanhui">
+                	<div class="Tit"><span><a href="#" target="_blank">网友汇</a></span><em>| 我们的生活印记</em></div>
+                    <ul class="Shw">
+                    	<!--{block/15}-->
+                    </ul>
+                    <ul class="TxtList">
+                    	<!--{block/16}-->
+                    </ul>
+                </div>
+                
+            </div>
+        	<div id="MainRight">
+            	<div id="VideoFi">
+                	<div class="sTit"><strong><a href="#" target="_blank">音乐吧</a>/<a href="#" target="_blank">MV</a></strong><em>| 音乐试听 MV</em><span></span></div>
+                    <ul class="sShw">
+                    	<!--{block/17}-->
+                    </ul>
+                    <ul class="List">
+                    	<!--{block/18}-->
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        
+        
+        <!-- 页面底部 开始 -->
+        <div id="Footer">
+            <div class="Friends">
+                <ul class="x mbm cl">
+                    <li class="titlinks">网站邻居：</li>
+                    <!--{block/19}-->
+                    <li class="addlinks"><a href="#" target="_blank" title="链接注意事项">+申请链接+</a></li>
+                    <div class="clear"></div>
+                </ul>
+                
+            </div>
+        </div>
+        <!-- 页面底部 结束 -->
+	</div>
+    
+<!--{subtemplate common/footer}-->

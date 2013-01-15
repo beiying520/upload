@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2.5]]></item>
+	<item id="Time"><![CDATA[2012-05-28 15:46]]></item>
+	<item id="From"><![CDATA[³¬¼¶¹Ü¼Ò (http://localhost/dx2.5/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[×¿Ü¿XÏµ¹ÜÀí]]></item>
+			<item id="identifier"><![CDATA[cr180_x]]></item>
+			<item id="description"><![CDATA[¸Ã²å¼þÖ»ÊÊÓÃÓÚ×¿Ü¿XÏµÄ£°å£¬Ö÷Òª¹¦ÄÜÎª¿ØÖÆ×¿Ü¿XÏµÄ£°å½çÃæ¸÷Ïî²ÎÊýÉèÖÃ¡£×÷Õß£ºcr180]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[cr180_x/]]></item>
+			<item id="copyright"><![CDATA[cr180¿ª·¢¹¤·»&amp;³¬¼¶¹Ü¼Ò www.discuzt.com]]></item>
+			<item id="version"><![CDATA[V1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[style]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[Ò³Í·µ¼º½À¸·ç¸ñ]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[common_header]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[0=Ä¬ÈÏÑùÊ½
+1=²»ÏÔÊ¾µ¼º½ËµÃ÷]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[È«¾ÖÒ³Î²×Ô¶¨Òå´úÂë]]></item>
+				<item id="description"><![CDATA[ÇëÌîÐ´ÔöÇ¿ÐÍµ×²¿×Ô¶¨Òå´úÂë]]></item>
+				<item id="variable"><![CDATA[common_footer]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[<p>
+¹ã¸æÈÈÏß/´«Õæ£º88888888  &nbsp;&nbsp;Í¶ËßÊÜÀí£º88888888
+</p>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[ÊÇ·ñ¿ªÆôÖÇÄÜ¸¡¶¯²Ëµ¥]]></item>
+				<item id="description"><![CDATA[¿ªÆôÖÇÄÜ¸¡¶¯²Ëµ¥ºó£¬Ö÷ÌâÁÐ±íÒ³¡¢Ìû×ÓÒ³·¢Ìû²Ëµ¥Óë·ÖÒ³°´Å¥½«»á¸¡¶¯ÏÔÊ¾£¬ÓÐºÜ¸ßµÄÓÃ»§ÌåÑé£¨½¨Òé¿ªÆô£©]]></item>
+				<item id="variable"><![CDATA[forum_common_floatmenu]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[ÂÛÌ³Ê×Ò³ºáÅÅÊÇ·ñÏÔÊ¾°æ¿éÐÂÌù]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[forum_index_listpost]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[Ö÷ÌâÁÐ±íÒ³ÁÐ±í·ç¸ñÒ»]]></item>
+				<item id="description"><![CDATA[·ç¸ñ£ºÍ·Ïñ+±êÌâ+¼ò¶ÌÄÚÈÝ
+ÇëÑ¡ÔñÐèÒªÓ¦ÓÃ¸Ã·ç¸ñµÄ°æ¿é£¡]]></item>
+				<item id="variable"><![CDATA[forum_list_style]]></item>
+				<item id="type"><![CDATA[forums]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[42]]></item>
+				</item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[Ö÷ÌâÁÐ±íÒ³·á¸»ÐÍ·ç¸ñ]]></item>
+				<item id="description"><![CDATA[Ñ¡ÔñÐèÒª¿ªÆô·á¸»ÐÍ·ç¸ñµÄ°æ¿é£¬½¨ÒéÈÈÃÅ°æ¿é¿ªÆô¸Ã¹¦ÄÜ]]></item>
+				<item id="variable"><![CDATA[forum_displaystyle]]></item>
+				<item id="type"><![CDATA[forums]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[2]]></item>
+				</item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[XÏµÌû×ÓÒ³×ÊÑ¶Ìù°æ¿é]]></item>
+				<item id="description"><![CDATA[Ñ¡ÔñÐèÒª¿ªÆô×ÊÑ¶ÌùµÄ°æ¿é£¬¿É¶àÑ¡]]></item>
+				<item id="variable"><![CDATA[forum_view_newsstyle]]></item>
+				<item id="type"><![CDATA[forums]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[42]]></item>
+				</item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[XÏµÌû×ÓÒ³¼ò½àÂ¥²ãÄ£Ê½]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[forum_view_endyestyle]]></item>
+				<item id="type"><![CDATA[forums]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="templatelang">
+				<item id="page_1"><![CDATA[ÉÏÒ»Ò³]]></item>
+				<item id="page_2"><![CDATA[ÏÂÒ»Ò³]]></item>
+				<item id="page_3"><![CDATA[·µ»Ø¶¥²¿]]></item>
+				<item id="page_4"><![CDATA[Ë¢ÐÂµ±Ç°Ò³Ãæ]]></item>
+				<item id="page_5"><![CDATA[°æ¿éµ¼º½]]></item>
+				<item id="page_6"><![CDATA[¶¥²¿]]></item>
+				<item id="lang_1"><![CDATA[½ñÈÕ]]></item>
+				<item id="lang_2"><![CDATA[Ö÷Ìâ]]></item>
+				<item id="lang_3"><![CDATA[×ÜÌù]]></item>
+				<item id="lang_4"><![CDATA[×îÐÂ]]></item>
+				<item id="lang_5"><![CDATA[ÎÄ×ÖÄ£Ê½]]></item>
+				<item id="lang_6"><![CDATA[·¢±íÓÚ]]></item>
+				<item id="lang_7"><![CDATA[²é¿´]]></item>
+				<item id="lang_8"><![CDATA[»Ø¸´]]></item>
+				<item id="lang_9"><![CDATA[ÐÅÏ¢²úÒµ²¿±¸°¸/Ðí¿ÉÖ¤±àºÅ£º]]></item>
+				<item id="lang_10"><![CDATA[Style By <a href="http://www.discuzt.com" target="_blank">cr180¿ª·¢¹¤·»</a>]]></item>
+				<item id="lang_11"><![CDATA[ÎÒµÄ¹ã²¥]]></item>
+				<item id="lang_12"><![CDATA[<script type="text/javascript">var IO=document.getElementById('float_menubox'),Y=IO,H=0,IE6;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(!IE6){
+	window.onscroll=function (){
+		var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+		if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+		IO.style.position=IO.fix?"":"fixed"; 
+		IO.className = IO.fix?"cl":"cl on"; 
+		if($('threadlist')) IO.style.width = ''+$('threadlist').scrollWidth+'px';
+		if($('postlist')) IO.style.width = ''+$('postlist').scrollWidth+'px';
+		IO.fix=!IO.fix;
+	};
+	try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+}
+</script>]]></item>
+				<item id="lang_13"><![CDATA[]]></item>
+				<item id="lang_14"><![CDATA[]]></item>
+			</item>
+		</item>
+	</item>
+</root>

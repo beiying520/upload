@@ -1,0 +1,638 @@
+﻿/* ===================================================================================== */
+/* == TingYuXuan Template styles by vr4u 20120908 == */
+/* ===================================================================================== */
+/* == 共用样式表 == */
+body{ padding:0; margin:0; background:#F2EDDF url({STYLEIMGDIR}/body_bottom_bg.png) left bottom repeat-x; font-size:12px; font-family:"微软雅黑","宋体",Tahoma,Helvetica,Arial,sans-serif; color:#333;}
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#104D6C; text-decoration:underline;}
+a:active{ color:#EDA000; text-decoration:none;}
+.clear{ clear:both; font-size:0px; height:0px; line-height:0px;}
+ul,li,form,p,h1,h2,h3,h4{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0;}
+input,textarea{ padding:0; margin:0; font-size:12px; font-family:tahoma,Arial,Century Gothic,verdana,Helvetica,sans-serif;}
+.pipe{ color:#96BB71;}
+/* == 页面顶部样式表 == */
+#Container{}
+#ContainerHead{ overflow:hidden; background:#F2EDDF url({STYLEIMGDIR}/body_bg.png) 0 51px repeat-x;}
+	/* == 网页顶部 == */
+	#WebHead{ width:100%; height:50px; background:url({STYLEIMGDIR}/desk_bg.jpg) center bottom repeat-x; overflow:hidden;}
+		#WebHead .WebHead{ height:50px; background:url({STYLEIMGDIR}/top_black_mask.png) center top repeat-y; _background:none;}
+			#WebHead .WebHead .Player{ margin:0 auto; width:960px; height:50px; line-height:50px; color:#E3E3E3; overflow:hidden;}
+		#nv{ background:none; overflow: hidden;}
+			#nv ul{ float:left; padding:13px 0 0 0; height:25px;}
+			#nv li{ float:left; height:25px; line-height:25px; background:none; font-weight:700; font-size:12px; }
+				.ie_all #nv li{ line-height: 25px; }
+				.ie6 #nv li{ line-height:25px; }
+				#nv li a{ float:left; padding:0 10px; height:25px; color:#C9C0A7; text-align:center; }
+				#nv li span{ display: none; }
+				#nv li.a{ display:inline; margin:0 8px; padding:0 0 0 8px; background:url({STYLEIMGDIR}/web_btn_l.gif) 0 0 no-repeat;}
+				#nv li.a a{ float:left; position:relative; padding:0 10px 0 2px; background:url({STYLEIMGDIR}/web_btn_r.gif) right top no-repeat; color:#6C5445; cursor:default;}
+				#nv li.a a span{ display:block; position:absolute; top:25px; left:34.5%; overflow:hidden; text-indent:-999px; z-index:999; width:5px; height:3px; background:url({STYLEIMGDIR}/web_btn_corner.gif) 0 0 no-repeat;}
+				#nv li a:hover{ color:#FFF; background:none; text-decoration:none;}
+				#nv li.a a:hover{ color:#6C5445; background:url({STYLEIMGDIR}/web_btn_r.gif) right top no-repeat; text-decoration:none;}
+			.diybtn{ float:left; padding:15px 0 0 5px; width:52px; height:20px;}
+			#diy-tg{ width:40px; height:18px; background:url({STYLEIMGDIR}/panel-toggle.gif) 0 0 no-repeat;}
+			#nv .SearchWord{ float:left; margin:15px 0 0 15px; padding:0 0 0 15px; height:20px; line-height:20px; border-left:solid 1px #C9C0A7;}
+			#nv .SearchWord strong{ padding:0 10px 0 0; background:url({STYLEIMGDIR}/ico_right_arrow.gif) right center no-repeat;}
+			#nv .SearchWord a{ padding:0 0 0 10px; color:#C9C0A7;}
+			#nv .SearchWord strong a{ padding:0; color:#FFF;}
+			
+	/* == 顶部 == */
+	#Header{ margin:0 auto; width:960px; height:116px; position:relative;}
+		#Iam{ margin:0 auto; width:960px; height:50px; position:relative;}
+			#um{ padding:0; line-height:normal;}
+			#Iam .Iam{ position:absolute; top:-50px; right:-10px; width:393px; height:85px; background:url({STYLEIMGDIR}/head_user_bg.png) 0 0 no-repeat;}
+			.HadLogin{ padding:30px 0 0 0; height:55px;}
+				.HadLogin .uface{ float:right; padding:0 43px 0 0;}
+				.HadLogin .uface img{ width:38px; height:38px; border:solid 2px #F2EDDF;}
+				.HadLogin .uface img:hover{ border:solid 2px #9A9A9A;}
+				#qmenu{ margin:0; padding:0; width:42px; height:42px; background:none;}
+				.uleft{ float:left; width:300px;}
+				.HadLogin .uname{ width:300px; height:24px; line-height:20px; text-align:right;}
+				#Iam .HadLogin .uinfo{ width:300px; font-size:12px; line-height:16px; text-align:right; color:#789D46;}
+				.HadLogin .uinfo a{ color:#789D46; font-size:12px;}
+			.toLogin{ padding:28px 60px 0 0; text-align:right;}
+			.otherLogin{ padding:10px 60px 0 0; color:#789D46; font-size:11px; text-align:right;}
+			.otherLogin img{ vertical-align:middle;}
+		#Logo{ width:130px; height:46px; overflow:hidden;}
+			#Logo h1{ padding:0; margin:0; width:130px; height:46px; overflow:hidden;}
+		#NavMenu{ position:absolute; top:50px; right:0; width:792px; height:45px;}
+			.NavMenu{ float:left; margin:0 0 0 5px; padding:4px 0 0 45px; height:41px; line-height:18px; position:relative; display:inline;}
+			.navline{ position:absolute; left:98px; top:6px; width:2px; height:33px; overflow:hidden; background:url({STYLEIMGDIR}/nav_menu_line.gif) 0 0 no-repeat;}
+			.NavMenu h2{ position:absolute; top:6px; left:6px; width:35px; height:33px; overflow:hidden;}
+			.NavMenu em{ position:absolute; display:block; top:23px; right:7px; width:17px; height:13px; background:url({STYLEIMGDIR}/ico_new.gif) 0 0 no-repeat; overflow:hidden;}
+			.NavMenu .Btn{ display:block; width:35px; height:33px; overflow:hidden; line-height:33px; text-indent:99px;}
+			.NavMenu .Btn:hover{ text-decoration:none;}
+			/* == 一般状态时 == */
+			.n1 h2{ background:url({STYLEIMGDIR}/h2_t1_.gif) 0 0 no-repeat;}
+			.n2 h2{ background:url({STYLEIMGDIR}/h2_t2_.gif) 0 0 no-repeat;}
+			.n3 h2{ background:url({STYLEIMGDIR}/h2_t3_.gif) 0 0 no-repeat;}
+			.n4 h2{ background:url({STYLEIMGDIR}/h2_t4_.gif) 0 0 no-repeat;}
+			/* == 当前状态时 == */
+			.b1 h2{ background:url({STYLEIMGDIR}/h2_t1_.gif) 0 -33px no-repeat;}
+			.b2 h2{ background:url({STYLEIMGDIR}/h2_t2_.gif) 0 -33px no-repeat;}
+			.b3 h2{ background:url({STYLEIMGDIR}/h2_t3_.gif) 0 -33px no-repeat;}
+			.b4 h2{ background:url({STYLEIMGDIR}/h2_t4_.gif) 0 -33px no-repeat;}
+				
+			#NavMenu h3{ float:left; padding:0 0 0 7px; font-weight:normal; font-size:12px;}
+			#NavMenu .pdleft{ padding:0 0 0 15px; width:73px;}
+			#NavMenu h3 a{ padding:0 5px 0 0; white-space:nowrap;}
+			#NavMenu h3 a.now{ background:url({STYLEIMGDIR}/nav_menu_now.gif) right 2px no-repeat;}
+			#NavMenu .n1{ width:80px;}
+			#NavMenu .n2{ width:140px;}
+			#NavMenu .n3{ width:127px;}
+			#NavMenu .n4{ width:105px;}
+			#NavMenu .b1{ text-shadow:0px 1px #F8F4ED,0 -1px #DCD3C5; background:#E4E2CD url({STYLEIMGDIR}/nav_menu_bg.gif) 0 0 no-repeat;}
+			#NavMenu .b2{ text-shadow:0px 1px #F8F4ED,0 -1px #DCD3C5; background:#E4E2CD url({STYLEIMGDIR}/nav_menu_bg.gif) 0 -45px no-repeat;}
+			#NavMenu .b3{ text-shadow:0px 1px #F8F4ED,0 -1px #DCD3C5; background:#E4E2CD url({STYLEIMGDIR}/nav_menu_bg.gif) 0 -90px no-repeat;}
+			#NavMenu .b4{ text-shadow:0px 1px #F8F4ED,0 -1px #DCD3C5; background:#E4E2CD url({STYLEIMGDIR}/nav_menu_bg.gif) 0 -135px no-repeat;}
+			#NavMenu .NavOther{ float:left; display:inline; margin:0 0 0 6px; padding:6px 0 0 0; width:85px; height:39px; line-height:16px; background:#D8D0BA url({STYLEIMGDIR}/nav_menu_bg.gif) left bottom no-repeat; text-align:center; overflow:hidden;}
+			
+			.NavSearch,.NavSearchhover{ float:right; position:relative; width:43px; height:45px; background:url({STYLEIMGDIR}/h2_search_btn.gif) 0 0 no-repeat;}
+			.NSbtn{ float:left; width:34px; height:45px; overflow:hidden;}
+			.NSmor{ float:right; width:9px; height:45px; overflow:hidden;}
+			
+			.SearchBlock #scbar_txt{ float:left; margin:1px 0 0 0; width:185px; height:41px; line-height:41px; border:0; background:transparent; font-size:16px; font-family:"微软雅黑",Tahoma,Helvetica,Arial,sans-serif;}
+			.SearchBlock #scbar_btn{ float:right; width:34px; height:45px; overflow:hidden; border:none; background:url({STYLEIMGDIR}/h2_search_btn.gif) 0 0 no-repeat;}
+			
+			.NavSearch .SearchBlock{ display:none; width:1px; height:1px; overflow:hidden;}
+			.NavSearchhover .SearchBlock{ display:block; position:absolute; top:0; right:9px; padding:0 0 0 60px; width:220px; height:50px; z-index:999; overflow:hidden; background:url({STYLEIMGDIR}/h2_search_bg.png) 0 0 no-repeat;}
+			
+		
+	#Banner{ height:350px;}
+		.Weather_duoyun{ height:350px; background:#3E9DCB url({STYLEIMGDIR}/weather/weather1_bg.png) 0 0 repeat-x;}
+			.Weather_duoyun .WeatherImg{ height:350px; background:url({STYLEIMGDIR}/weather/weather1.jpg) center center no-repeat;}
+			.Weather_duoyun .WeatherImg .WeatherMaskTop{ height:350px; background:url({STYLEIMGDIR}/weather/weather_mask_top.png) center top repeat-x;}
+			.Weather_duoyun .WeatherImg .WeatherMaskBtm{ height:350px; background:url({STYLEIMGDIR}/weather/weather_mask_btm.png) center bottom repeat-x;}
+			.Weather_duoyun .WeatherImg .Content{ margin:0 auto; width:960px; height:350px; position:relative;}
+			.Weather_duoyun .WeatherImg .NRtxt{ position:absolute; left:0; bottom:70px; padding:60px 0 0 10px; background:url({STYLEIMGDIR}/banner_title.png) 0 0 no-repeat; color:#D9EBF7;}
+	#BannerReel{ position:absolute; top:165px; left:0; width:100%; height:363px; background:url({STYLEIMGDIR}/weather/weather_reel_bg.png) center top no-repeat;}
+	#tyxBanner{ height:200px; background:#3E9DCB url({STYLEIMGDIR}/weather/weather1_bg.png) 0 0 repeat-x;}
+			.BannerImg{ position:relative; height:200px; background:url({STYLEIMGDIR}/tyx_banner.jpg) center center no-repeat;}
+			.B_shouting_bg{ background:url({STYLEIMGDIR}/banner/B_shouting_bg.png) center center repeat;}
+			.B_shouting_ico{ background:url({STYLEIMGDIR}/banner/B_shouting_ico.jpg) right center no-repeat;}
+			.B_rizhi_bg{ background:url({STYLEIMGDIR}/banner/B_rizhi_bg.png) center center repeat;}
+			.B_rizhi_ico{ background:url({STYLEIMGDIR}/banner/B_rizhi_ico.gif) right center no-repeat;}
+			.B_xiangce_bg{ background:url({STYLEIMGDIR}/banner/B_xiangce_bg.jpg) center center repeat;}
+			.B_xiangce_ico{ background:url({STYLEIMGDIR}/banner/B_xiangce_ico.gif) right center no-repeat;}
+			.B_fenxiang_bg{ background:url({STYLEIMGDIR}/banner/B_fenxiang_bg.png) center center repeat;}
+			.B_fenxiang_ico{ background:url({STYLEIMGDIR}/banner/B_fenxiang_ico.jpg) right center no-repeat;}
+			.B_jilu_bg{ background:url({STYLEIMGDIR}/banner/B_jilu_bg.jpg) center center repeat;}
+			.B_jilu_ico{ background:url({STYLEIMGDIR}/banner/B_jilu_ico.gif) right center no-repeat;}
+			.B_paihang_bg{ background:url({STYLEIMGDIR}/banner/B_paihang_bg.png) center center repeat;}
+			.B_paihang_ico{ background:url({STYLEIMGDIR}/banner/B_paihang_ico.jpg) right center no-repeat;}
+			.B_dongtai_bg{ background:url({STYLEIMGDIR}/banner/B_dongtai_bg.jpg) center center repeat;}
+			
+			.BannerImg .BannerIco{ margin:0 auto; width:986px; height:200px;}
+			.BannerImg .Content{ position:relative; margin:0 auto; padding:0 13px; width:960px; height:200px; background:url({STYLEIMGDIR}/light_bg.png) -6px 61px no-repeat; _background:none; z-index:9;}
+            .BannerImg .Content ul{ padding:75px 0 0 0;}
+            .BannerImg .Content ul a{ color:#FFF;}
+            .BannerImg .Content ul li.name{ height:45px; background:url({STYLEIMGDIR}/line_white.png) left bottom no-repeat; color:#FFF;}
+            .BannerImg .Content ul li.info{ padding:10px 0 0 5px; color:#FFF;}
+            .BannerImg .Content ul li.name h1{ float:left; padding:0 0 0 5px; height:40px; line-height:40px; font-size:25px; font-family:"微软雅黑","黑体",Tahoma,Helvetica,Arial,sans-serif; font-weight:normal;}
+            .BannerImg .Content ul li.name em{ float:left; padding:15px 0 0 20px; font-style:normal;}
+            .BannerImg .Content ul li.name em.a_t{ float:left; padding:15px 0 0 5px; font-style:normal; font-size:14px; font-family:"微软雅黑","黑体",Tahoma,Helvetica,Arial,sans-serif; font-weight:normal;}
+			.BannerImg .BannerMaskTop{ position:absolute; top:0; left:0; width:100%; height:200px; background:url({STYLEIMGDIR}/weather/weather_mask_top.png) center top repeat-x; z-index:7;}
+			.BannerImg .BannerMaskBtm{ position:absolute; top:0; left:0; width:100%; height:200px; background:url({STYLEIMGDIR}/weather/weather_mask_btm.png) center bottom repeat-x; z-index:8;}
+	/* == banner== */		
+
+			
+			
+	/* == 页面主体== */
+	.ct1{ border:none;}
+	
+	#pt{ margin:0 auto; width:960px;}
+	.mn{ padding:0 0 20px 0;}
+	.i_cat_title{ height:35px; background:#E7CA72 url({STYLEIMGDIR}/bbs_ico_title.gif) 5px 5px no-repeat;}
+	.i_cat_title strong{ float:left; padding:0 0 0 40px; line-height:35px; font-size:14px; font-weight:bold;}
+	.i_cat_title .o{ float:right; padding:10px 0 0 0; width:30px;}
+	
+	.bm_h { padding:0 10px; height:38px; border-top:1px solid #FFF; border-bottom:1px solid {CONTENTSEPARATE}; background:{COMMONBG}; line-height:35px; white-space:nowrap; overflow:hidden; }
+	.fl .bm_h{ border:none;}
+	.bm{ border:none; background-color:none;}
+	.fl{ border:none; background-color:none;}
+	.bm_c{ padding:0;}
+	.fl .bm_c,#online .bm_c,.lk .bm_c{ padding:0;}
+	#online{ border-top:solid 2px #D1AD98;}
+	
+	/* == 二三级页面 == */
+	.DisplayRules{ margin:0; padding:2px 0 0 0; font-size:14px; font-weight:bold; text-indent:0;}
+	.SideTop{ margin:0 0 10px 0; padding:0 10px; height:35px; line-height:35px; background-color:#EBE3CF; font-weight:normal; text-align:right; color:#A3988A;}
+	.SideTop span{ float:left; font-size:14px; font-weight:bold; color:#333;}
+	.PostTitle{ padding:10px 0 10px 40px; border-top:solid 1px #CDCDCD; background:url({STYLEIMGDIR}/bbs_ico_title.gif) 0 14px no-repeat; line-height:145%; font-size:20px;}
+	.PostTitleP{ padding:10px 0 10px 40px; border-top:solid 1px #CDCDCD; border-bottom:solid 2px #BEB08B; background:url({STYLEIMGDIR}/ra_ico_title.gif) 0 14px no-repeat; line-height:145%; font-size:20px;}
+	.PostTitleM{ padding:10px 0 10px 40px; background:#E7CA72 url({STYLEIMGDIR}/mu_ico_title.gif) 10px 14px no-repeat; line-height:145%; font-size:20px;}
+	.PostTitleS{ padding:10px 0 0 40px; border-top:solid 1px #CDCDCD; background:url({STYLEIMGDIR}/sc_ico_title.gif) 0 14px no-repeat; line-height:145%; font-size:20px;}
+	.PostTitle #post_reply{ float:right;}
+	.space_u{ height:30px; clear:both;}
+		.space_u li{ float:left; padding:0 0 0 20px; width:80px; line-height:25px;}
+	.threaduinfo{ padding:5px 0 0 0; color:#999;}
+	.threaduinfo a{ color:#999;}
+	.threaduinfo span{ padding:0 10px 0 0;}
+	/* == 帖子列表页 == */
+	#BbsTop{ width:960px; height:35px; line-height:35px; background:#E7CA72 url({STYLEIMGDIR}/bbs_ico_title.gif) 5px 5px no-repeat;}
+	.BbsTop{ margin:0 0 5px 0; width:960px; height:40px; line-height:35px; color:#999; background:#FFF url({STYLEIMGDIR}/album_bottom_bg.gif) left bottom repeat-x;}
+	.BbsTop a{ color:#666;}
+	.BbsTleft{ float:left; text-indent:10px;}
+	.BbsTright{ float:right; padding:0 10px 0 0; width:400px; text-align:right;}
+	.ProList{ float:left; font-size:14px; padding:0 0 0 40px;}
+	.ProViewBtn{ float:right; padding:0 10px 0 0; width:300px;}
+	.ProViewBtn em{ float:right; padding:0 10px 0 0; width:145px; text-align:right;}
+	#EditorTop{ margin:15px 0 10px 0; height:190px; background-color:#EBE3CF; position:relative;}
+	.EditorTitle{ position:absolute; top:0; left:-25px; width:25px; height:103px; background:url({STYLEIMGDIR}/title_editor.gif) 0 0 no-repeat;}
+	.EditorImg{ float:left; width:240px; height:190px;}
+	.EditorTxt{ float:right; width:700px;}
+	.EditorTxt ul{ padding:10px 0 0 0; height:180px;}
+	.EditorTxt li{ float:left; width:340px; line-height:2;}
+	/* == 导读 == */
+	.maint{ padding:0 15px; border-top:solid 2px #D1AD98; background-color:#EBE3CF;}
+	.main2t{ height:38px; line-height:35px; text-indent:10px; color:#999; background:#FFF url({STYLEIMGDIR}/album_bottom_bg.gif) left bottom repeat-x;}
+	.main2list{ padding:15px 0;}
+	.main2list .xl2{ background:none;}
+	.main2list li{ height:35px; line-height:35px; border-bottom:dashed 1px #d9c8c4;}
+	.main2list li：hover{ background-color:#EFEAD8;}
+	
+	
+	.tb{ padding-left:0; border-bottom:none;}
+	.tb li{ margin-bottom:0; margin-right:1px;}
+	.tb a{ border:none;}
+	.tb .a a{ border:solid 1px #d9c8c4; border-bottom:none;}
+	#uhd { margin:0 auto 10px auto; width:960px; padding-top: 10px; border:none; background: {SPECIALBG}; }
+	#uhd .tb a,#uhd .tb .a a{ border:none;}
+	#uhd .tb a:hover{ border:none;}
+	#ct { min-height:600px; }
+	.ct2_a, .ct3_a { border:none; {SIDEBGCODE} }
+	.bml .maint{ padding:0 15px; border-top:solid 2px #D1AD98; background-color:#EBE3CF;}
+	
+	.appl{ margin-top:10px; width:112px;}
+	.appl .bbda{ border-bottom:solid 1px #F2EDDF; background-color:#D8D0BA;}
+	.tbn li{ margin:0; background-color:#EBE3CF; border-bottom:solid 1px #F2EDDF; text-indent:15px;}
+	.tbn li.a{ padding:0; border:none; border-top:solid 1px #F2EDDF; border-bottom:solid 1px #F2EDDF; background-color:#E7CA72;}
+	.tbn .mt{ padding-left:15px;}
+	/* == 群组 == */
+	.GroupTop{ margin:10px 0 0 0; padding:0 15px; border-top:solid 2px #D1AD98; background-color:#EBE3CF;}
+	.ct2 .sd { float: right; width: 210px; overflow: hidden; _overflow-y: visible; }
+	.GroupIndexT1{ border:none; height:35px; background-color:#E7CA72;}
+	.GroupIndexT{ border:none; height:35px; background-color:#E2DDCD;}
+	
+	
+	/* == 分页 == */
+	.tyxPageNum{ margin:20px 0 0 0; padding:20px 0 0 0; width:960px; height:113px; border-top:solid 1px #d9c8c4; position:relative;}
+	.tyxPageList{ position:absolute; right:0; top:20px; width:830px; z-index:999;}
+	
+	.tyxPageNum label{ display:none;}
+	.return{ float:right; padding:10px 0 0 10px;}
+	.return a{ float:left; padding:0; width:35px; height:35px; line-height:35px; text-align:center; background:#EBE3CF url({STYLEIMGDIR}/tyx_page_return.gif) 0 0 no-repeat;}
+	.return a:hover{ background-color:#E7CA72; text-decoration:none;}
+	.tyxPageNum .pg a{ float:left; margin:10px 0 0 10px; padding:0; width:35px; height:35px; border:none; line-height:35px; text-align:center; color:#666; background:#EBE3CF url({STYLEIMGDIR}/tyx_page_bg.gif) 0 0 no-repeat;}	
+	.tyxPageNum .pg a:hover{ background-color:#E7CA72; border:none; text-decoration:none;}
+	.tyxPageNum .pg a.prev,.tyxPageNum .pg a.nxt{ display:none;}
+	.tyxPageNum .pg strong{ float:left; margin:0 0 0 10px; padding:10px 0 0 0; width:50px; height:106px; border:none; font-size:14px; line-height:35px; text-align:center; text-indent:4px; overflow:visible; background:url({STYLEIMGDIR}/tyx_page_now.gif) 0 0 no-repeat;}
+	#pgt .pg, #pgt .pgb { margin:0; }
+	
+	
+	/* == 页面主体== */
+	#PageBody{ margin:0 auto; padding:0 0 10px 0; width:960px; position:relative;}
+		#RadioSide{ float:left; padding:40px 0 10px 0; width:205px; background:url({STYLEIMGDIR}/ra_line_left.png) right 110px no-repeat;}
+			.Rablock{ width:180px; height:135px; position:relative; background:#EBE3CF url({STYLEIMGDIR}/side_block_btm_bg.png) left bottom no-repeat;}
+				.RaIco{ width:33px; height:29px; position:absolute; top:-15px; left:73px; background:url({STYLEIMGDIR}/side_radio_ico.gif) 0 0 no-repeat;}
+				.ForumIco{ width:36px; height:30px; position:absolute; top:-12px; left:72px; background:url({STYLEIMGDIR}/side_forum_ico.gif) 0 0 no-repeat;}
+				.corner{ width:11px; height:21px; position:absolute; top:57px; right:-11px; background:url({STYLEIMGDIR}/side_block_r_corner.gif) 0 0 no-repeat;}
+				
+				.RaTitle{ padding:0 0 8px 0; background:url({STYLEIMGDIR}/side_block_top_bg.png) 0 0 no-repeat;}
+				.RaName{ padding:12px 0 0 0; height:26px; line-height:26px; text-align:center; background:url({STYLEIMGDIR}/side_block_t_bg.gif) center 24px no-repeat; font-size:16px; font-family:"微软雅黑",Tahoma,Helvetica,Arial,sans-serif;}
+				.QQgroup{ padding:0 0 0 12px; color:#A57F78;}
+				.QQgroup a{ color:#A57F78;}
+				.BBStitle{ line-height:25px; text-align:center; color:#E0D3BE;}
+				.BBStitle a{ color:#A57F78;}
+				.RaList{ margin:0 auto; padding:5px 0 0 0; width:155px; border-top:dashed 1px #B4AA9B; line-height:18px;}
+			.RaBtn{ margin:20px 0 0 -2px;}
+				.RaBtn li{ padding:7px 0 0 0;}
+				.RaBtn a{ display:block; height:40px; line-height:32px; background:url({STYLEIMGDIR}/ra_btn_bg.png) 0 -47px no-repeat;}
+				.RaBtn a:hover{ text-decoration:none; background:url({STYLEIMGDIR}/ra_btn_bg.png) 0 0 no-repeat;}
+				.RaBtn span{ display:block; width:180px; height:32px; text-align:right;}
+				.RaBtn span em{ font-style:normal; color:#7F6F60;}
+				.ply span{ background:url({STYLEIMGDIR}/ra_ico_all.gif) 10px 9px no-repeat;}
+				.art span{ background:url({STYLEIMGDIR}/ra_ico_all.gif) 10px -29px no-repeat;}
+				.dvd span{ background:url({STYLEIMGDIR}/ra_ico_all.gif) 10px -72px no-repeat;}
+				.ply a:hover span{ background:url({STYLEIMGDIR}/ra_ico_all.gif) 10px 8px no-repeat;}
+				.art a:hover span{ background:url({STYLEIMGDIR}/ra_ico_all.gif) 10px -30px no-repeat;}
+				.dvd a:hover span{ background:url({STYLEIMGDIR}/ra_ico_all.gif) 10px -73px no-repeat;}
+				
+			.RaInf{ padding:20px 0 0 0; width:180px;}
+			.RaInf li{ height:30px; line-height:30px; border-bottom:dashed 1px #D2BEB9; color:#A68078; text-indent:4px;}
+			.RaInf li a{ padding:0 7px 0 0; font-weight:bold; color:#333;}
+			
+		#RadioMain{ float:right; padding:0 0 20px 0; width:734px;}
+			#RadioNew{ float:left; padding:37px 0 0 0; width:449px;}
+				.RadioNew{ padding:3px 0 0 4px; width:445px; position:relative; background:url({STYLEIMGDIR}/ra_new_img_shadow.gif) 0 0 no-repeat;}
+				.Rdmenu { position:absolute; top:-2px; left:12px;}
+				.Rdmenuon0, .Rdmenuon1{ float:left; width:75px; height:44px; line-height:30px; background:url({STYLEIMGDIR}/rd_menu_tag_hover.png) 0 0 no-repeat; cursor:pointer; text-align:center; color:#333;}
+				.Rdmenuoff, .Rdmenuoff1{ float:left; margin:0 4px; width:67px; height:30px; line-height:30px; background:#E3D7B8 url({STYLEIMGDIR}/rd_menu_tag_bg.png) 0 0 repeat-x; cursor:pointer;  text-align:center; color:#666;}
+				.Rd0, .Rd1{ width:445px;}
+				.Rdimg{ padding:10px 0 0 0; width:445px; height:240px; background-color:#FFF;}
+				.Rdimg img{ width:445px; height:240px;}
+				.Rdnj{ position:absolute; top:-20px; right:12px; width:68px; height:64px; text-align:center; background:url({STYLEIMGDIR}/rd_nj_shadow.png) left bottom no-repeat;}
+				.Rdnj img{ width:54px; height:54px; border:solid 3px #FFF;}
+				.RdInfo{ width:445px; height:63px; background:#FFF url({STYLEIMGDIR}/album_bottom_bg.gif) left bottom no-repeat;}
+				.RdInfo .l1{ padding:8px 8px 0 35px; height:20px; line-height:20px; text-align:right; color:#B6B6B6; background:url({STYLEIMGDIR}/ra_ico_listen.gif) 9px 12px no-repeat;}
+				.RdInfo .l1 strong{ float:left; width:328px; height:20px; text-align:left; font-weight:normal; white-space:nowrap; -o-text-overflow:ellipsis; text-overflow:ellipsis; overflow:hidden;}
+				.RdInfo .l1 a{ font-size:14px; color:#8E8D88;}
+				.RdInfo .l2{ padding:0 0 0 35px; color:#D9C8C4;}
+				.Retitle{ height:33px; line-height:33px; font-weight:bold; color:#A3988A; border-bottom:solid 1px #D9C8C4;}
+				.Retitle em{ padding:0 0 0 10px; color:#B6B6B6; font-weight:normal;}
+				#RadioNew .Reply{ width:445px;}
+					#RadioNew .Reply li{ width:445px; height:35px; line-height:35px; border-bottom:dashed 1px #D9C8C4; overflow:hidden; text-indent:2px;}
+					#RadioNew .Reply li:hover{ background-color:#EFEAD8;}
+					#RadioNew .Reply li span a{ color:#99885A;}
+			#RadioProgram{ float:right; padding:40px 0 0 0; width:280px;}
+				.Zhuanti{ padding:0 0 0 20px; width:260px; height:164px; position:relative;}
+				.Zhuanti em{ position:absolute; top:16px; right:-7px; width:41px; height:22px; background:url({STYLEIMGDIR}/zhuanti_title.png) 0 0 no-repeat;}
+				.Zhuanti em a{ display:block; width:41px; height:22px;}
+				.EliteProgram{ width:280px;}
+				.EliteProgram ul{ width:280px; height:160px; clear:both;}
+					.EliteProgram li{ float:left; padding:0 0 0 20px; width:120px; height:83px; background:url({STYLEIMGDIR}/image_shadow.png) right 64px no-repeat; position:relative;}
+					.EliteProgram li span{ position:absolute; top:-1px; right:-1px; padding:0 2px; font-size:10px; background-color:#363636; color:#FFF;}
+					.EliteProgram li img{ width:120px; height:64px;}
+				
+				.PreProgram{ margin:0 0 0 20px; width:260px;}
+					.PreProgram ul{ padding:2px 0 0 0;}
+					.PreProgram ul li{ line-height:29px;}
+					
+		#RadioNJ{ width:960px; height:110px; background-color:#E7CA74; position:relative;}
+			.RadioNJ{ float:left; width:845px; height:110px;}
+				.RadioNJ .Title{ float:left; margin:30px 5px 0 15px; padding:32px 0 0 0; width:35px; height:35px; background:url({STYLEIMGDIR}/radio_nj_ico.gif) center 0 no-repeat; font-weight:bold; text-align:center; _display:inline;}
+				.RadioNJ ul{ float:left; padding:19px 0 0 11px; width:54px; height:74px;}
+				.RadioNJ .l1{ margin:0 auto; width:48px; height:48px; overflow:hidden;}
+				.RadioNJ .l2{ padding:8px 0 0 0; width:54px; height:18px; overflow:hidden;}
+				.RadioNJ .l2 a{ display:block; width:54px; height:18px; text-align:center; background:#EDD898 url({STYLEIMGDIR}/radio_nj_name_bg.gif) 0 0 no-repeat; overflow:hidden;}
+				.RadioNJ .l2 a:hover{ background-color:#F4E9C4;}
+			.RadioPlan{ float:right; width:105px; height:110px; background:#EBE3CF url({STYLEIMGDIR}/radio_nj_banner_bg.gif) 0 0 no-repeat;}
+			.Rjoin{ float:left; margin:27px 0 0 22px; padding:30px 0 0 0; width:40px; height:20px; line-height:20px; text-align:center; display:inline; background:url({STYLEIMGDIR}/radio_join_ico.gif) 10px 0 no-repeat;}
+			.Rcehua{ float:left; margin:27px 0 0 0; padding:30px 0 0 0; width:40px; height:20px; line-height:20px; text-align:center; display:inline; background:url({STYLEIMGDIR}/radio_cehua_ico.gif) 10px 0 no-repeat;}
+				
+			#RadioNJ .RadioClip{ width:30px; height:65px; background:url({STYLEIMGDIR}/radio_clip.png) 0 0 no-repeat; position:absolute; top:-7px; left:54px;}
+			#RadioNJ .RadioClip2{ width:7px; height:41px; overflow:hidden; background:url({STYLEIMGDIR}/radio_clip2.gif) 0 0 no-repeat; position:absolute; top:34px; right:104px;}
+		#SideBar{ float:left; padding:25px 0 0 0; width:205px; background:url({STYLEIMGDIR}/ra_line_left.png) right center no-repeat;}
+		
+		.Foblock{ width:180px; height:290px;position:relative; background:#EBE3CF url({STYLEIMGDIR}/side_block_btm_bg.png) left bottom no-repeat;}
+			.FoIco{ width:36px; height:30px; position:absolute; top:-12px; left:72px; background:url({STYLEIMGDIR}/side_forum_ico.gif) 0 0 no-repeat;}
+		.FoTitle{ padding:10px 0 5px 0; height:25px; line-height:25px; font-weight:bold; text-indent:15px;}
+		.BoardList{ margin:0 auto; padding:8px 0; width:150px; border-top:dashed 1px #C4BCB0;}
+		.BoardList .li{ line-height:18px;}
+		.BoardList .l1{ padding:0 0 3px 0;}
+		.BoardList .l1 a{ color:#A3988A;}
+		.NewAtten{ margin:13px 0 9px 0; width:180px;}
+		.NewAtten .list{ padding:8px 0; border-bottom:dashed 1px #BAB7AB;}
+		.NewAtten .list em{ display:block; color:#A3988A;}
+		.SideAd{ padding:11px 0 0 0;}
+		
+		/* 音乐故事 */
+		.iPost{ float:right; margin:9px 10px 0 0; width:45px; height:22px; line-height:22px; text-align:center; background:#EBE3CF url({STYLEIMGDIR}/ipost_bg.gif) 0 0 no-repeat;}
+		.iPost:hover{ background-color:#D8D0BA; text-decoration:none;}
+		.StoryTop{ background-color:#FFF;}
+		.stimg{ width:445px; height:140px; overflow:hidden;}
+		.sttxt{ padding:0 0 0 75px; height:78px; background:url({STYLEIMGDIR}/story_ico_pop.gif) 20px 20px no-repeat; position:relative;}
+		.sttxt .l1{ position:absolute; top:15px; left:15px;}
+		.sttxt .l1 img{ width:48px; height:48px;}
+		.sttxt .l1 a{ display:block; width:48px; height:48px;}
+		.ul_h .l1 img{ display:none;}
+		.sttxt .l2{ padding:10px 0 0 0;}
+		.sttxt .l2 a{ font-size:14px;}
+		.sttxt .l2 em{ padding:0 10px 0 0;}
+		.sttxt .l2 em a{ font-size:12px; color:#998659;}
+		.sttxt .l3{ padding:0 10px 0 0; color:#A2A2A2;}
+		
+		.Tit2{ width:445px; height:85px; background:#E7CA74 url({STYLEIMGDIR}/story_middle_bg.png) 0 0 no-repeat;}
+		.Tit2 span{ float:left; padding:43px 0 0 10px;}
+		.Tit2 em{ float:right; padding:43px 10px 0 0;}
+		.Tit2 em a{ color:#666;}
+		.StoryList{ height:220px; background:#EBE3CF url({STYLEIMGDIR}/story_btm.gif) left bottom no-repeat;}
+		.StoryList ul{ padding:0 0 0 65px; height:65px; border-bottom:dashed 1px #BAB7AB; background:url({STYLEIMGDIR}/story_ico_pop.gif) 15px 15px no-repeat; position:relative;}
+		.StoryList .l1{ position:absolute; top:15px; left:15px;}
+		.StoryList .l1 a{ display:block; width:35px; height:35px;}
+		.StoryList .l1 img{ width:35px; height:35px;}
+		.StoryList .ul_h .l1 img{ display:none;}
+		.StoryList .l2{ padding:10px 0 0 0;}
+		.StoryList .l2 a{ font-size:14px;}
+		.StoryList .l2 em{ padding:0 10px 0 0;}
+		.StoryList .l2 em a{ font-size:12px; color:#998659;}
+		.StoryList .l3{ padding:0 10px 0 0; color:#A2A2A2;}
+		
+		/* 音乐酷 */
+		.AlbumTop{ height:255px; background:#FFF url({STYLEIMGDIR}/album_bottom_bg.gif) -2px bottom no-repeat;}
+		.AlbumTop .l1{ width:260px; height:140px; overflow:hidden;}
+		.AlbumTop .l2{ padding:10px 13px 0 13px;}
+		.AlbumTop .l3{ padding:5px 13px; color:#A0A0A0;}
+		.AlbumTop .l4{ padding:0 13px; color:#999;}
+		.AlbumTop .l4 a{ color:#998659;}
+	
+		.AlbumList{ padding:1px 0 0 0;}
+		.albumlist{ height:65px; border-bottom:dashed 1px #D9C8C4;}
+		.albumlist .image{ float:left; margin:13px 0 0 0; width:65px; height:50px; overflow:hidden; background:url({STYLEIMGDIR}/image_shadow.png) right 38px no-repeat;}
+		.albumlist ul{ float:right; padding:10px 0 0 0; width:180px;}
+		.albumlist .l2{ color:#A3988A;}
+		
+		/* 最新关注 */
+		.NewsImg{ margin:25px 0 0 0; width:960px; height:150px; position:relative; background:#D8D0BA url({STYLEIMGDIR}/guanzhu_img_bg.gif) left bottom repeat-x;}
+		.NewsTitle{ position:absolute; top:0; left:-25px; width:25px; height:82px; background:url({STYLEIMGDIR}/title_news.gif) 0 0 no-repeat;}
+		.ImgLst{ margin:0 0 0 -18px; width:978px;}
+		.ImgLst ul{ float:left; padding:18px 0 0 18px; width:145px; height:105px;}
+		.ImgLst ul .l2{ padding:5px 0 0 0; width:145px; height:20px; line-height:20px; text-align:center; white-space:nowrap; -o-text-overflow:ellipsis; text-overflow:ellipsis; overflow:hidden;}
+		.NewsTxt{ padding:10px 0 0 0; height:90px; background-color:#EBE3CF;}
+		.NewsTxt li{ float:left; padding:0 15px 0 0; width:300px; height:25px; line-height:25px; text-indent:20px; white-space:nowrap; -o-text-overflow:ellipsis; text-overflow:ellipsis; overflow:hidden;}
+		.NewsTxt li em{ padding:0 0 0 5px; color:#A3988A;}
+		
+		
+		/* 爱音乐的人 */
+		.Mublock{ width:180px; position:relative; background:#EBE3CF url({STYLEIMGDIR}/side_block_btm_bg.png) left bottom no-repeat;}
+			.MuIco{ width:33px; height:27px; position:absolute; top:-14px; left:72px; background:url({STYLEIMGDIR}/side_music_ico.gif) 0 0 no-repeat;}
+		.MuTitle{ width:180px; height:45px; line-height:45px; background:url({STYLEIMGDIR}/side_block_music_top.png) 0 0 no-repeat; text-align:center;}
+		.Mulist{ margin:0 auto; padding:5px 0 15px 0; width:160px;}
+		.Mulist li{ height:40px; line-height:40px; border-bottom:dashed 1px #D2BEB9; color:#B4AA9B; text-indent:2px;}
+		.Mulist li a{ padding:0 7px 0 0; font-weight:bold; color:#333;}
+		
+		/* 轩友汇 */
+		.Tit{ height:40px; line-height:40px; background-color:#FFF;}
+		.Tit span{ float:left; text-indent:12px; font-size:14px; font-weight:bold;}
+		.Tit em{ float:left; padding:0 0 0 10px; color:#B6B6B6;}
+		.Shw{ height:255px; background:#FFF url({STYLEIMGDIR}/album_bottom_bg.gif) left bottom no-repeat;}
+		.Shw .l1{ width:445px; height:140px; overflow:hidden;}
+		.Shw .l2{ padding:10px 13px 0 13px; font-size:14px;}
+		.Shw .l3{ padding:5px 13px; color:#A0A0A0;}
+		.Shw .l4{ padding:0 13px; color:#999;}
+		.Shw .l4 a{ color:#998659;}
+		
+		.TxtList{ padding:10px 0 0 0;}
+		.TxtList li{ height:35px; line-height:35px; border-bottom:dashed 1px #D9C8C4; text-align:right; color:#A3988A;}
+		.TxtList li:hover{ background-color:#EFEAD8;}
+		.TxtList li i{ font-style:normal; font-size:11px; color:#A3988A;}
+		.TxtList li a{ color:#A3988A;}
+		.TxtList li span{ float:left;}
+		.TxtList li span a{ padding:0 5px 0 0; font-style:normal; color:#333;}
+		.TxtList li span em{ padding:0 3px 0 2px; font-style:normal;}
+		.TxtList li span em a{ color:#99885A;}
+		.TxtList a:hover{ color:#104D6C; text-decoration:underline;}
+		.TxtList a:active{ color:#EDA000; text-decoration:none;}
+		
+		/* 音乐吧mv */
+		.sTit{ height:40px; line-height:40px; background-color:#FFF; position:relative;}
+		.sTit strong{ float:left; font-size:14px; font-weight:bold; text-indent:10px;}
+		.sTit em{ float:left; padding:0 0 0 10px; color:#b6b6b6;}
+		.sTit span{ display:block; position:absolute; top:35px; left:30px; width:10px; height:5px; z-index:9; background:url({STYLEIMGDIR}/title_arrow_btm_w.png) 0 0 no-repeat;}
+		.sShw{ height:255px; background:#FFF url({STYLEIMGDIR}/album_bottom_bg.gif) -2px bottom no-repeat;}
+		.sShw .l1{ width:260px; height:140px; overflow:hidden;}
+		.sShw .l2{ padding:10px 13px 0 13px;}
+		.sShw .l3{ padding:5px 13px; color:#A0A0A0;}
+		.sShw .l4{ padding:0 13px; color:#999;}
+		.sShw .l4 a{ color:#998659;}
+			
+		.List{ padding:6px 0 0 0;}
+		.List li{ height:31px; line-height:31px;}
+		
+		
+		.TyxAD{ padding:20px 0 5px 0;}
+		#MainRight{ float:right; width:260px;}
+			
+		#DownSoft{ width:180px; height:60px; border-top:solid 2px #C8BD9E; background:#EADFC9 url({STYLEIMGDIR}/ico_cooledit.gif) 13px 13px no-repeat;}
+			#DownSoft li{ padding:10px 0 0 55px; border-top:solid 1px #F2EDDF;}
+		#SideAD{ margin:10px 0 0 0;}
+		
+		
+		
+		
+
+		#DisplaySide{ float:right; padding:15px 0 0 25px; width:180px; background:url({STYLEIMGDIR}/ra_line_left.png) 0 80px no-repeat;}
+			#Announce{ width:180px; background-color:#E7CA72;}
+				#Announce .Title{ margin:0 auto; padding:10px 0 5px 0; width:160px; border-bottom:solid 1px #D0B453; font-weight:bold;}
+				#Announce ul{ margin:0 auto; padding:5px 0 10px 0; width:160px; border-top:solid 1px #EBDDAF;}
+				#Announce ul li{ line-height:22px;}
+			#GuanZhu{ padding:10px 0 0 0;}
+				#GuanZhu .Title{ width:180px; height:30px; line-height:30px; font-weight:bold;}
+				#GuanZhu .Show{ height:164px;}
+				#GuanZhu .Show .list{ padding:7px 0 0 0; width:180px; height:43px; line-height:18px; border-top:dashed 1px #D9C8C4; overflow:hidden;}
+				#GuanZhu .Show .list em{ display:block; font-style:normal; color:#A3988A;}
+			
+			#FriendElite{ border-top:solid 2px #C8BD9E;}
+				#FriendElite .Title{ padding:5px 0 0 0; width:180px; height:30px; line-height:30px; font-weight:bold;}
+				#FriendElite ul{ width:180px; height:178px; padding:0 0 10px 0;}
+				#FriendElite ul li{ height:22px; line-height:22px;}
+				#FriendElite ul li em{ margin:0 0 0 5px; line-height:20px; font-size:10px; color:#888; background-color:#EADFC9;}
+			#EnglishSong{ width:180px; height:55px; border-top:solid 2px #C8BD9E; background-color:#EADFC9;}
+				#EnglishSong .Title{ padding:5px 10px 0 10px; line-height:24px; border-top:solid 1px #F2EDDF; text-align:right; color:#785F50;}
+				#EnglishSong .Title span{ float:left; font-weight:bold; color:#333;}
+				#EnglishSong .Time{ padding:0 10px; color:#B19F8C;}
+			#RadioWave{ width:180px; height:55px; border-top:solid 1px #C8BD9E; border-bottom:solid 1px #F2EDDF; background-color:#EADFC9;}
+				#RadioWave .Title{ padding:5px 10px 0 10px; line-height:24px; text-align:right; color:#785F50;}
+				#RadioWave .Title span{ float:left; font-weight:bold; color:#333;}
+				#RadioWave .Info{ padding:0 10px; color:#B19F8C;}
+			#DownSoft{ width:180px; height:60px; border-top:solid 2px #C8BD9E; background:#EADFC9 url({STYLEIMGDIR}/ico_cooledit.gif) 13px 13px no-repeat;}
+				#DownSoft li{ padding:10px 0 0 55px; border-top:solid 1px #F2EDDF;}
+			#SideAD{ margin:10px 0 0 0;}
+		#MainBody{ float:right; padding:25px 0 0 0; width:730px;}
+		#DisplayTop{ padding:0 15px; border-top:solid 2px #D1AD98; background-color:#EBE3CF;}
+		#DisplayTop .bm{ background-color:#EBE3CF;}
+		#DisplayTop .bm_h{ padding:0; height:35px; line-height:35px;}
+		.DisplayPage{ padding:15px 0 0 0;}
+		.DisplayPage .pg,.DisplayPage .pgb{ margin:5px 0 0 0;}
+		.DisplayPageb{ height:45px; padding:10px 0 0 0; border-top:dashed 1px #D1AD98;}
+		.DisplayPageb .pg,.DisplayPageb .pgb{ margin:5px 0 0 0;}
+		.DisplayFpost .bm_h{ border-top:solid 2px #D1AD98; font-size:14px; background-color:#EBE3CF;}
+		
+		#DisplayMain{ float:left; padding:15px 25px 0 0; width:730px;}
+			#MainMiddle{ float:left; width:445px;}
+				#TxtPad{ width:445px; height:155px; background-color:#FFF; position:relative;}
+					#TxtPad .Title{ width:445px; height:5px; background:#F2EDDF url({STYLEIMGDIR}/shadow_top.gif) center top no-repeat; overflow:hidden;}
+					#TxtPad .Bottom{ width:445px; height:5px; background:#F2EDDF url({STYLEIMGDIR}/shadow_btm.gif) center top no-repeat; overflow:hidden;}
+					#TxtPad .container{ width:445px; height:145px; position:relative; overflow:hidden;}
+					#TxtPad .slider{ position:absolute;}
+					#TxtPad .slider li{ width:445px; height:145px;}
+					#TxtPad .slider2{ width:2000px;}
+					#TxtPad .slider2 li{ float:left; padding:30px 15px 15px 15px; width:415px; height:100px; line-height:24px; font-size:13px;}
+					#TxtPad .slider2 li span{ font-size:12px; color:#999;}
+					#TxtPad .slider2 li span a{ font-weight:bold; color:#8C8159; text-decoration:underline;}
+					#TxtPad .num{ position:absolute; right:15px; top:10px;}
+					#TxtPad .num li{ float:left; width:20px; height:20px; cursor:pointer; background:url({STYLEIMGDIR}/txt_pad_btn_bg.gif) 0 0 no-repeat; overflow:hidden;}
+					#TxtPad .num li.on{ height:20px; height:20px; background:url({STYLEIMGDIR}/txt_pad_btn_on.gif) 0 0 no-repeat; overflow:hidden;}
+					#TxtPad .name{ position:absolute; top:-2px; left:5px; width:94px; height:32px; background:url({STYLEIMGDIR}/txt_pad_name.gif) 0 0 no-repeat; z-index:2;}
+				.TopicList{ margin:20px 0 0 0; padding:1px 0 0 0; border-top:solid 2px #BEB08B;}
+					.TopicList .Title{ height:30px; line-height:30px; font-size:14px; font-weight:bold; background-color:#EADFC9; text-indent:10px;}
+					.TopicList .Title em{ padding:0 0 0 10px; font-style:normal; font-size:12px; font-weight:normal; color:#A3988A;}
+					.TopicList ul{ padding:0 0 10px 0;}
+					.TopicList ul li{ height:30px; line-height:30px; border-bottom:dashed 1px #C8BD9E; text-align:right; color:#99885A;}
+					.TopicList ul li:hover{ background-color:#EFEAD8;}
+					.TopicList ul li a{ color:#A3988A;}
+					.TopicList ul li span{ float:left;}
+					.TopicList ul li span a{ padding:0 5px 0 0; font-style:normal; color:#333;}
+					.TopicList ul li span em{ padding:0 3px 0 0; font-style:normal;}
+					.TopicList ul li span em a{ color:#99885A;}
+			#MainRight{ float:right; width:260px;}
+				#Activities{ padding:5px 0 0 0; height:145px;}
+					#Activities .Activity{ width:260px;}
+						#Activities .Activity .img{ float:left; width:100px;}
+						#Activities .Activity ul{ float:right; width:155px;}
+							#Activities .Activity ul li.tit{ padding:0 0 5px 0; font-weight:bold;}
+							#Activities .Activity ul li.inf{ color:#A99063;}
+							#Activities .Activity ul li.tim{ color:#A3654D;}
+							#Activities .Activity ul li.num{ color:#A3654D;}
+							#Activities .Activity ul li.info{ padding:15px 0 0 0;}
+							#Activities .Activity ul li.info a{ display:block; width:60px; height:25px; line-height:25px; background:url({STYLEIMGDIR}/btn_bg.png) 0 0 repeat-x; text-align:center;}
+				#ImagePicture{ margin:25px 0 0 0; width:260px; border-top:solid 2px #C8BD9E;}
+				#ImageVideo{ width:260px; border-top:solid 2px #C8BD9E;}
+					.ImageTitle{ height:35px; line-height:35px; text-align:right; color:#A3988A;}
+						.ImageTitle span{ float:left; font-size:14px; font-weight:bold; color:#333;}
+					.ImageImg{ width:260px; height:160px; overflow:hidden; position:relative;}
+					.ImageImg img{ width:260px; height:160px;}
+					.ImageImg span{ position:absolute; bottom:0; left:0; display:block; width:270px; height:30px; line-height:30px; background:url({STYLEIMGDIR}/img_title_bg.png) 0 0 repeat; _background:#333; color:#FFF; text-indent:5px;}
+					.ImageImg span a{ color:#FFF;}
+					ul.ImageList{ padding:19px 0 0 0; height:157px;}
+					ul.ImageList li{ line-height:22px;}
+	#BottomAD{ width:960px; background-color:#EADFC9;}
+	/* == 二三级页面 == */
+	.DisplayRules{ margin:0; padding:2px 0 0 0; font-size:14px; font-weight:bold; text-indent:0;}
+	.SideTop{ margin:0 0 10px 0; padding:0 10px; height:35px; line-height:35px; background-color:#EBE3CF; font-weight:normal; text-align:right; color:#A3988A;}
+	.SideTop span{ float:left; font-size:14px; font-weight:bold; color:#333;}
+	.PostTitle #post_reply{ position:absolute; top:10px; right:0;}
+	.space_u{ clear:both;}
+		.space_u li{ float:left; padding:0 0 0 0; width:80px;}
+	
+	.DisSideOpen .bm_c{ padding:10px 0;}
+	.DisSideOpen .bm_h{ text-indent:0;}
+	/* == 群组页面 == */
+	.GroupSide{ float:right; width:200px;}
+	
+	
+	/* == 帖子页面 楼主部分 vr4u 20120909 == */
+	#imLouzhu{ width:960px; height:120px; background-color:#E7CA72;}
+		.UserInfo{ float:left; width:600px; height:120px; background-color:#E7CA72; position:relative;}
+			.fac,.inf{ float:left;}
+			.inf{ padding:6px 0 0 10px; width:460px; height:114px; position:relative;}
+			.inf .xg1{ width:135px; height:auto;}
+			.btns{ position:absolute; bottom:10px; left:10px;}
+			.mdls{ position:absolute; width:250px; top:7px; right:10px; text-align:right;}
+		.PostInfo{ float:right; padding:10px 0 0 0; width:350px;}
+			.PostDate{ padding:10px 10px 5px 0; line-height:20px; text-align:right;}
+			.PostDate .aprint{ float:right; margin:0 0 0 10px;}
+			.PostInfo .pi{ margin:0 10px 0 0; border:none;}
+		#imLouzhu .tns { margin:5px 0 0 0; padding:0; width:200px; background-color:#EBD287;}
+		#imLouzhu .tns th { border-right: 3px solid #E7CA72;}
+		.pls .tns{ padding:0;}
+		.tedt .area { padding: 4px; background:#FFF; zoom: 1; }
+		.tedt .pt { width: 100%; margin-right: 0; padding: 0 !important; border: none; background:#FFF; }
+		.LouShouting{}
+		
+	#imFirst{ border-bottom:solid 2px #D1AD98;}
+	#PostTime{ width:960px; height:48px; line-height:40px; color:#999; background:#FFF url({STYLEIMGDIR}/album_bottom_bg.gif) left bottom repeat-x;}
+		#PostTime #pgt{ float:right; padding:10px 0 0 0; width:595px; height:28px;}
+	.UserTime{ float:left; text-indent:15px;}
+	.FastReply{ margin:15px 0 0 0; width:960px; height:55px; background-color:#E3D7B8;}
+	.FastReplyBtn{ float:left; padding:12px 0 0 12px; width:80px;}
+	.FastReply span{ float:right; height:20px; padding:17px 10px 0 0; line-height:20px;}
+	.FastReply span a{ height:20px; line-height:20px; color:#A89B74;}
+	.FastReplyInfo{ float:left; padding:0 0 0 10px; line-height:55px; color:#857850;}
+	.FastPage{ margin:1px 0 0 0; width:960px; height:50px; background-color:#EBE3CF; position:relative;}
+	.ReplyTitle{ padding:0 0 0 12px; line-height:50px; font-size:14px; font-weight:bold; color:#666;}
+	.TopPageNum{ position:absolute; top:-3px; right:0;}
+	.TopPageNum .pg a{ margin:10px 10px 0 0; padding:0; width:35px; height:35px; text-align:center; border:none; color:#666; background-color:#EBE3CF;}
+	.TopPageNum .pg a:hover{ background-color:#E7CA72; border:none; text-decoration:none;}
+	.TopPageNum .pg{ line-height:35px;}
+	.TopPageNum .pg a.nxt,.TopPageNum .pg a.prev,.TopPageNum .pg label{ display:none;}
+	.TopPageNum .pg strong{ margin:0 10px 0 0; padding:0; width:49px; height:56px; line-height:56px; text-align:center; background:url({STYLEIMGDIR}/toppage_now_bg.gif) 0 0 no-repeat;}
+	
+	.modmenu{ line-height:40px; border-top:solid 1px #CDCDCD;}
+	.modmenub{ line-height:40px; border-bottom:solid 1px #CDCDCD;}
+	.leftname{ width:120px; text-align:center; line-height:20px;}
+	.leftname em{ display:block; color:#CDCDCD;}
+	.md_ctrl{ text-align:center;}
+	
+	.t_main{}
+	.ThreadMain{ padding:20px 0 0 0;}
+	.t_side{ vertical-align:top; width:130px;}
+		.ThreadButton{ padding:20px 0 0 20px; width:110px;}
+		.ThreadButton2{ padding:10px 0 0 0; height:50px;}
+		.ThreadSide{ padding:0 0 0 20px; width:110px;}
+		.Sideshare{ padding:10px 0 10px 0;}
+			.sideFav{ padding:8px 0 8px 10px; background-color:#EBE3CF; line-height:20px; color:#a68078;}
+			.sideInvite{ padding:8px 0 8px 10px; border-bottom:solid 2px #F2EDDF; background-color:#EBE3CF; line-height:20px; color:#a68078;}
+			
+			.sideContent{ margin:2px 0 0 0; padding:8px 8px 8px 10px; background-color:#EBE3CF; line-height:23px;}
+		.sideContent img{ padding:0 5px 0 0; vertical-align:middle;}
+		.sideContent strong,.sideContent a{ display:block;}
+		.sideContent2{ float:left; padding:12px 0 0 20px;}
+		.sideContent2 strong,.sideContent2 a{}
+		.sideContent i{ font-style:normal;}
+		.sideContent2 i{ padding:0 5px; line-height:25px; font-style:normal;}
+		
+		
+	/* == 图片列表 == */
+	.ProgramList{}
+	li.program{ float:left; padding:20px 20px 0 0; width:220px; height:240px; border-bottom:dashed 1px #D9C8C4;}
+	li.program .program_img{ width:220px; height:120px; overflow:hidden;}
+	li.program .program_inf{}
+		li.program .program_inf h3{ padding:5px 0 0 0; font-size:14px; font-weight:normal;}
+		li.program .program_inf h3 span{ display:block; padding:2px 5px; background-color:#EBE3CF; font-size:12px; font-weight:normal;}
+		li.program .program_inf .program_clk{ padding:5px 0 0 0; color:#ADAAA5;}
+		li.program .program_inf .program_clk a{ color:#ADAAA5;}
+	
+		
+	/* == 网页底部 == */
+	#scrolltop{ visibility:hidden; position:fixed; bottom:100px; display:block; margin:-30px 0 0; width:24px; height:116px; background:url({STYLEIMGDIR}/scrolltop.png) no-repeat 0 0; line-height:999px; overflow:hidden; cursor:pointer; }
+	#Footer{ margin:20px auto 0 auto; width:960px; border-top:solid 2px #817162;}
+		#Footer .Friends{ margin:0 auto; padding:10px 0 30px 0; width:960px; line-height:25px;}
+			#Footer .Friends span{ padding:0 5px 0 0; font-weight:bold;}
+			#Footer .Friends ul{ width:960px;}
+			#Footer .Friends li{ float:left; padding:0 15px 0 0;}
+			#Footer .Friends a{ display:inline-block; white-space:nowrap;}
+			.Friends .titlinks{ font-weight:bold; color:#7F7F7F;}
+			.Friends .addlinks a{ padding:0 5px; background-color:#EADFC9; color:#99885a;}
+			.Friends .addlinks a:hover{ background-color:#D6C598; color:#333; text-decoration:none;}
+
+	#SiteInfo{ width:100%; height:100px; background:url({STYLEIMGDIR}/desk_bg.jpg) 0 0 repeat; color:#FFF;}
+		#ft{ border:none; color:#FFF;}
+		#SiteInfo a{ color:#FFF;}
+		#SiteInfo .SiteInfo{ width:100%; height:100px; background:url({STYLEIMGDIR}/top_black_mask2.png) center top repeat-y; _background:none;}
+		#SiteInfo .SiteInfo ul{ margin:0 auto; padding:15px 0 0 0; width:960px;}
+		#SiteInfo .SiteInfo li{ line-height:22px;}
+		#SiteInfo .SiteInfo li em{ font-size:9px; font-family:Tahoma,Helvetica,Arial,sans-serif;}
+		

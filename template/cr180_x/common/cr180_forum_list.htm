@@ -1,0 +1,25 @@
+<!--{subtemplate common/header_ajax}-->
+<h3 class="flb">
+    <em id="return_$_G[gp_handlekey]">{lang cr180_x:page_5}</em>
+    <span><a href="javascript:;" onclick="hideWindow('$_G[gp_handlekey]');" class="flbc" title="{lang close}">{lang close}</a></span>
+</h3>
+<div class="cr180_forumlist_ajax">
+<!--{eval $g =1;}-->
+<!--{loop $forumcache $upfid $gdata}-->
+<!--{if $gdata[fup] =='0'}-->
+	<dl class="cl"{if $g <25} style="background-image:url({IMGDIR}/cr_listbgs_$g.jpg)"{/if}>
+		<dt class="cl"><a href="forum.php?mod=forumdisplay&fid=$gdata[fid]" title="$gdata['name']">$gdata['name']</a></dt>
+		<dd class="cl">
+        <!--{loop $forumcache $subfid $value}-->
+            <!--{if $gdata[fid] ==$value[fup]}-->
+            <a href="forum.php?mod=forumdisplay&fid=$value[fid]" title="$value[name]">$value[name]</a>
+            <!--{/if}-->
+        <!--{/loop}-->
+		</dd>
+    
+	</dl>
+    <!--{eval $g++;}-->
+<!--{/if}-->
+<!--{/loop}-->
+</div>
+<!--{subtemplate common/footer_ajax}-->

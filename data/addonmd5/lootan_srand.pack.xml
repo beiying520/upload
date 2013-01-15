@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[lootan_srand.pack]]></item>
+	<item id="SN"><![CDATA[2013010416V7H7H2o8vF]]></item>
+	<item id="RevisionID"><![CDATA[428]]></item>
+	<item id="RevisionDateline"><![CDATA[1329386996]]></item>
+	<item id="Data">
+		<item id="/source/class/secqaa/secqaa_lootan_srand_text.php"><![CDATA[eb9402eb60c8c94ac9941e1fabdd8505]]></item>
+		<item id="/source/language/secqaa/lang_lootan_srand_text.php"><![CDATA[39a632d59de9965827f36c65a59d7f16]]></item>
+	</item>
+</root>
