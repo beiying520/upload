@@ -29,8 +29,6 @@ function errormessage(id, msg) {
 			}else{
 				$('chk_' + id).style.display='none';
 			}
-			
-			
 		}
 		$(id).className = $(id).className.replace(/ er/, '');
 		$(id).className += !msg ? '' : ' er';
@@ -55,6 +53,7 @@ function addFormEvent(formid, focus){
 	if(!si) {
 		return;
 	}
+
 	formNode[stmp[3]].onblur = function () {
 		checkusername(formNode[stmp[3]].id);
 	};
@@ -78,6 +77,7 @@ function addFormEvent(formid, focus){
 		}
 	};
 	formNode[stmp[2]].onblur = function () {
+				
 		if(formNode[stmp[2]].value == '') {
 			errormessage(formNode[stmp[2]].id, '请再次输入密码');
 		}
@@ -105,6 +105,7 @@ function addMailEvent(mailObj) {
 		emailMenuOp(4, event, mailObj.id);
 	};
 	mailObj.onblur = function () {
+	
 		if(mailObj.value == '') {
 			errormessage(mailObj.id, '请输入邮箱地址');
 		}

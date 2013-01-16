@@ -1,6 +1,6 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); 
 0
-|| checktplrefresh('./template/default/member/register.htm', './template/default/common/seccheck.htm', 1358241364, '1', './data/template/1_1_member_register.tpl.php', './template/default', 'member/register')
+|| checktplrefresh('./template/default/member/register.htm', './template/default/common/seccheck.htm', 1358328941, '1', './data/template/1_1_member_register.tpl.php', './template/default', 'member/register')
 ;?><?php include template('common/header_user'); ?><script type="text/javascript">
 var strongpw = new Array();
 <?php if($_G['setting']['strongpw']) { if(is_array($_G['setting']['strongpw'])) foreach($_G['setting']['strongpw'] as $key => $val) { ?>strongpw[<?php echo $key;?>] = <?php echo $val;?>;
@@ -251,7 +251,7 @@ EOF;
 
 </div>
 
-<div id="layer_reginfo_b">
+<div id="layer_reginfo_b">e1234
 <div class="rfm mbw bw0">
 <table width="100%">
 <tr>
